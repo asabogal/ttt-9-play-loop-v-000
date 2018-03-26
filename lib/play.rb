@@ -40,13 +40,13 @@ end
 def play(board)
 
   i = 0
-  loop do 
+  loop do
     i += 1
     turn(board)
-    if i < 9
+    if i > 9
       break
     end
-  
+
   end
 
 end
